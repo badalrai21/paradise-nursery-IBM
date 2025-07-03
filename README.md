@@ -77,7 +77,7 @@ paradise-nursery/
    "homepage": "https://badalrai21.github.io/paradise-nursery-IBM"
 
    
- Your vite.config.js must include:
+   Your vite.config.js must include:
    ```
    js
    Copy
@@ -112,7 +112,7 @@ paradise-nursery/
    ### 👤 Author
    Badal Kumar Rai
    GitHub: [@badalrai21](https://github.com/badalrai21).
-   LinekdIn: [@BadalRai](https://www.linkedin.com/in/badal-rai)  
+   LinekdIn: [@BadalRai](https://www.linkedin.com/in/badal-rai)    
    Discord: Join our Discord Server [@NO2](https://discord.gg/Dnw4ZjEg)    
    
    ### 🙏 Acknowledgements
