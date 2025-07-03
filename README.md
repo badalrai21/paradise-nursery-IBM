@@ -26,18 +26,31 @@
 ## 📁 Project Structure
 
 paradise-nursery/
+
 ├── public/
+
 ├── src/
+
 │ ├── assets/ # Images (plants, backgrounds)
+
 │ ├── components/ # Header, buttons
+
 │ ├── pages/ # LandingPage, ProductPage, CartPage
+
 │ ├── data/ # products.js
+
 │ ├── redux/ # store.js, cartSlice.js
+
 │ ├── App.jsx
+
 │ └── main.jsx
+
 ├── dist/ # Production build (after build)
+
 ├── package.json
+
 ├── vite.config.js
+
 └── README.md
 
 
