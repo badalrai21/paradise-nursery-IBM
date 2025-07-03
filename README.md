@@ -49,16 +49,18 @@ paradise-nursery/
    ```bash
    git clone https://github.com/badalrai21/paradise-nursery-IBM.git
    cd paradise-nursery-IBM
+```bash
 npm install
 npm run dev
-
+```
 
 🚀 Deployment (GitHub Pages)
 Add this line to your package.json:
-
+```
 json
 Copy
 Edit
+```
 "homepage": "https://badalrai21.github.io/paradise-nursery-IBM"
 Your vite.config.js must include:
 
