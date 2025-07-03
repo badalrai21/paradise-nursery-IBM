@@ -75,6 +75,7 @@ paradise-nursery/
    Edit
    ```
    "homepage": "https://badalrai21.github.io/paradise-nursery-IBM"
+
    
  Your vite.config.js must include:
    ```
@@ -86,6 +87,7 @@ paradise-nursery/
      plugins: [react()],
    });
    ```
+
    Then build and deploy:
    
    ```bash
@@ -94,6 +96,7 @@ paradise-nursery/
    npm run build
    npm run deploy
    ```
+
    Ensure images in your products.js use relative imports:
    ```
    js
@@ -108,13 +111,10 @@ paradise-nursery/
    
    ### 👤 Author
    Badal Kumar Rai
-   GitHub: @badalrai21
-    
-   Join the community to discuss the project and get help from other user:
+   GitHub: [@badalrai21](https://github.com/badalrai21).
    LinekdIn: [@BadalRai](https://www.linkedin.com/in/badal-rai)  
    Discord: Join our Discord Server [@NO2](https://discord.gg/Dnw4ZjEg)    
    
    ### 🙏 Acknowledgements
    IBM SkillsBuild Frontend Course
-
-React, Redux Toolkit & Vite community
+   React, Redux Toolkit & Vite community
