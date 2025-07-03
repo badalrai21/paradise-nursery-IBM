@@ -1,0 +1,53 @@
+.landing-container {
+  background-image: url('/src/assets/landing-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+  font-family: sans-serif;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  max-width: 600px;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.get-started {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+  background-color: #388E3C;
+}
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.8rem;
+}
