@@ -49,50 +49,59 @@ paradise-nursery/
    ```bash
    git clone https://github.com/badalrai21/paradise-nursery-IBM.git
    cd paradise-nursery-IBM
-```bash
-npm install
-npm run dev
-```
+   ```bash
+   npm install
+   npm run dev
+   ```
 
 🚀 Deployment (GitHub Pages)
-Add this line to your package.json:
-```
-json
-Copy
-Edit
-```
-"homepage": "https://badalrai21.github.io/paradise-nursery-IBM"
-Your vite.config.js must include:
+   Add this line to your package.json:
+   ```
+   json
+   Copy
+   Edit
+   ```
+   "homepage": "https://badalrai21.github.io/paradise-nursery-IBM"
+   
+ Your vite.config.js must include:
+   ```
+   js
+   Copy
+   Edit
+   export default defineConfig({
+     base: '/paradise-nursery-IBM/',
+     plugins: [react()],
+   });
+   ```
+   Then build and deploy:
+   
+   ```bash
+   Copy
+   Edit
+   npm run build
+   npm run deploy
+   ```
+   Ensure images in your products.js use relative imports:
+   ```
+   js
+   Copy
+   Edit
+   import snake from '../assets/snake.jpg';
+   export default [{ id: 1, name: 'Snake Plant', image: snake, ... }]
+   ```
 
-js
-Copy
-Edit
-export default defineConfig({
-  base: '/paradise-nursery-IBM/',
-  plugins: [react()],
-});
-Then build and deploy:
-
-bash
-Copy
-Edit
-npm run build
-npm run deploy
-Ensure images in your products.js use relative imports:
-
-js
-Copy
-Edit
-import snake from '../assets/snake.jpg';
-export default [{ id: 1, name: 'Snake Plant', image: snake, ... }]
-📃 License
-This project is licensed under the MIT License.
-
-👤 Author
-Badal Kumar
-GitHub: @badalrai21
-
-🙏 Acknowledgements
-IBM SkillsBuild Frontend Course
+   ### 📃 License
+   This project is licensed under the MIT License.
+   
+   ### 👤 Author
+   Badal Kumar Rai
+   GitHub: @badalrai21
+    
+   Join the community to discuss the project and get help from other user:
+   LinekdIn: [@BadalRai](https://www.linkedin.com/in/badal-rai)  
+   Discord: Join our Discord Server [@NO2](https://discord.gg/Dnw4ZjEg)    
+   
+   ### 🙏 Acknowledgements
+   IBM SkillsBuild Frontend Course
 
 React, Redux Toolkit & Vite community
